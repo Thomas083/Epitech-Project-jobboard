@@ -1,0 +1,51 @@
+@import "../../styles/settings.scss";
+
+.tag {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .5rem;
+    border-color: gray;
+    margin-right: .5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.container {
+    margin-bottom: 1.5rem;
+}
+
+.btn-apply {
+    height: 10px;
+}
+
+.btn-learn-more {
+    width: auto;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.box {
+    background-color: lightblue;
+    border-radius: 10px;
+
+    :hover {
+        transition: box-shadow 0.3s ease-in-out;
+        box-shadow: 5px 5px 3px lightgray;
+    }
+}
+
+@media (min-width: 375px) {
+    img {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media (min-width: 992px) {
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}

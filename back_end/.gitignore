@@ -1,0 +1,7 @@
+node_modules/
+.env
+# don't ignore images and folder inside but ignore all files in all directory
+!images/
+images/CVs/*
+images/profils/*
+images/adverts/*

@@ -1,0 +1,29 @@
+@import "../../styles/settings.scss";
+
+.footer-settings {
+    margin: 0;
+    padding: 5vh 0;
+    background-color: grey;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    height: 15vh;
+    width: 100%;
+    display: inline-grid;
+    align-items: center;
+    justify-items: center;
+}
+
+/* min-width 768 */
+@media (min-width: 768px) {  
+    .footer-settings {
+      height: 10vh;    
+    }
+  }
+  
+  /* min-width 992 */
+  @media (min-width: 992px) {  
+    .footer-settings {
+      height: 8vh;    
+    }
+  }
